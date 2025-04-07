@@ -10,7 +10,7 @@ body {
 }
 
 #qr-container {
-  width: 300px;
+  width: 350px;
   height: 520px;
   background-color: #fff;
   border-radius: 20px;
@@ -26,7 +26,7 @@ body {
 .qr-code-img img {
   width: 100%;
   padding: 1rem;
-  border-radius: 25px;
+  border-radius: 30px;
 }
 
 .attribution {
@@ -34,15 +34,18 @@ body {
   padding: 1rem 0;
 }
 
-h2 {
+h1 {
   text-align: center;
+  font-size: 1.6rem;
   padding: 0 1rem;
+  color: #1f3251;
 }
 
 p {
   font-size: 8 px;
   text-align: center;
   padding: 1rem 2.5rem;
+  color: #68778d;
 }
 
 /* Media Queries */
@@ -51,6 +54,5 @@ p {
   #qr-container {
     margin-top: 2rem;
     width: 80%;
-    background-color: lightgreen;
   }
 }
